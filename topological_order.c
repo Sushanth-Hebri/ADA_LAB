@@ -10,9 +10,9 @@ void main(){
    printf("Enter number of edges edges\n");
    scanf("%d",&m);
 
-
-   for(int i=1;i<=n;i++){
     printf("Enter all edges\n");
+   for(int i=1;i<=m;i++){
+
     scanf("%d%d",&u,&v);
     a[u][v]=1;
    }
